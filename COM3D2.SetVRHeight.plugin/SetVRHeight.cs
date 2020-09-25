@@ -24,11 +24,11 @@ namespace COM3D2.SetVRHeight.plugin
 		private void OnLevelWasLoaded(int level)
 		{
 			if (level == 36)
-            {
+			{
 				yOffset = KaraokeVRHeight.Value;
 			}
 			else
-            {
+			{
 				yOffset = VRHeight.Value;
 			}
 
@@ -37,9 +37,9 @@ namespace COM3D2.SetVRHeight.plugin
 
 
 		void LateUpdate()
-        {
+		{
 			if (!isDance)
-            {
+			{
 				if (GameMain.Instance.MainCamera.IsFadeOut() && !hasFadeOut)
 				{
 					hasFadeOut = true;
