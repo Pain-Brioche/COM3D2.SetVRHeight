@@ -15,3 +15,4 @@ Simple plugin to adjust vertical position in VR, for those, like me, who'd rathe
 
 ### Known issues
 - During yotogi skill selection, camera will be a bit too high. This is due to the fact that it's the only part in the game where the default height makes sense, and I haven't found a way to isolate this scene.
+- Some scenes have eye level camera, as such you'll be taller than needed.
